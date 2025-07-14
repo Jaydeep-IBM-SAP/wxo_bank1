@@ -6,12 +6,7 @@
     <img src = "DTE_Bank_wxO.png"
     	width="auto" height="1200"
          alt = "New Watson Assistant Bank" />
-
-</head>
-
-
-
-<body><script>
+<script>
   window.watsonAssistantChatOptions = {
     integrationID: "cde39977-5eca-4ca5-a371-eca64341ff06", // The ID of this integration.
     region: "aws-us-east-1", // The region your integration is hosted in.
@@ -24,6 +19,11 @@
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
-</script></body>
+</script>
+</head>
+
+
+
+<body></body>
 
 </html>
